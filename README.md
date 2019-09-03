@@ -5,6 +5,9 @@ the MVC API and Eclise Krazo.
 
 ## Usage
 
+1) Download the archetype and run `mvn clean install` because it is not pushed to any repository at the moment.
+
+2)
 To generate a MVC application with **Jersey** as JAX-RS implementation (Glassfish, Payara):
 
 ```shell script
