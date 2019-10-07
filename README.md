@@ -1,6 +1,6 @@
-# JavaEE 8 & MVC 1.0 archetype
+# Jakarta EE 8 & MVC 1.0 archetype
 
-This archetype generates a basic MVC application based on JavaEE 8 and the current SNAPSHOT version of
+This archetype generates a basic MVC application based on Jakarta EE 8 and the current SNAPSHOT version of
 the MVC API and Eclise Krazo.
 
 ## Usage
@@ -13,7 +13,7 @@ To generate a MVC application with **Jersey** as JAX-RS implementation (Glassfis
 ```shell script
 mvn archetype:generate \
     -DarchetypeGroupId=de.erdlet \
-    -DarchetypeArtifactId=jee8-mvc-archetype \
+    -DarchetypeArtifactId=jakartaee8-mvc-archetype \
     -DarchetypeVersion=1.0-SNAPSHOT  \
     -DgroupId=<your-groupId> \
     -DartifactId=<your-DartifactId>
@@ -24,7 +24,7 @@ To generate a MVC application with **RESTEasy** as JAX-RS implementation (Wildfl
 ```shell script
 mvn archetype:generate \
     -DarchetypeGroupId=de.erdlet \
-    -DarchetypeArtifactId=archetype-jee8-mvc \
+    -DarchetypeArtifactId=jakartaee8-mvc-archetype \
     -DarchetypeVersion=1.0-SNAPSHOT \
     -DgroupId=<your-groupId> \
     -DartifactId=<your-DartifactId> \
@@ -36,7 +36,7 @@ To generate a MVC application with **CXF** as JAX-RS implementation (TomEE):
 ```shell script
 mvn archetype:generate \
     -DarchetypeGroupId=de.erdlet \
-    -DarchetypeArtifactId=archetype-jee8-mvc \
+    -DarchetypeArtifactId=jakartaee8-mvc-archetype \
     -DarchetypeVersion=1.0-SNAPSHOT \
     -DgroupId=<your-groupId> \
     -DartifactId=<your-DartifactId> \
