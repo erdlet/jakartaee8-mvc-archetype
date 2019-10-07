@@ -21,5 +21,8 @@
     <requiredProperty key="krazoImpl">
       <defaultValue>jersey</defaultValue>
     </requiredProperty>
+    <requiredProperty key="javaRelease">
+      <defaultValue>1.8</defaultValue>
+    </requiredProperty>
   </requiredProperties>
 </archetype-descriptor>
