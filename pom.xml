@@ -4,7 +4,7 @@
 
   <groupId>de.erdlet.archetypes</groupId>
   <artifactId>jakartaee8-mvc-archetype</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0-Beta1</version>
   <packaging>maven-archetype</packaging>
 
   <description>
@@ -52,7 +52,7 @@
     <connection>scm:git:git://github.com/erdlet/jakartaee8-mvc-archetype.git</connection>
     <developerConnection>scm:git:git@github.com:erdlet/jakartaee8-mvc-archetype.git</developerConnection>
     <url>https://github.com/erdlet/jakartaee8-mvc-archetype</url>
-    <tag>0.1</tag>
+    <tag>1.0.0-Beta1</tag>
   </scm>
 
 
