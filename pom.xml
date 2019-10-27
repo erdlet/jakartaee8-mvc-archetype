@@ -4,7 +4,7 @@
 
   <groupId>de.erdlet.archetypes</groupId>
   <artifactId>jakartaee8-mvc-archetype</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0-Beta1</version>
   <packaging>maven-archetype</packaging>
   <name>Jakarta EE 8 MVC Archetype</name>
 
