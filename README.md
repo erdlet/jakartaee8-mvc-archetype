@@ -1,20 +1,17 @@
 # Jakarta EE 8 & MVC 1.0 archetype
 
-This archetype generates a basic MVC application based on Jakarta EE 8 and the current SNAPSHOT version of
+This archetype generates a basic MVC application based on Jakarta EE 8 and the current release version of
 the MVC API and Eclise Krazo.
 
 ## Usage
 
-1) Download the archetype and run `mvn clean install` because it is not pushed to any repository at the moment.
-
-2)
 To generate a MVC application with **Jersey** as JAX-RS implementation (Glassfish, Payara):
 
 ```shell script
 mvn archetype:generate \
     -DarchetypeGroupId=de.erdlet \
     -DarchetypeArtifactId=jakartaee8-mvc-archetype \
-    -DarchetypeVersion=1.0-SNAPSHOT  \
+    -DarchetypeVersion=1.0.0-Beta1  \
     -DgroupId=<your-groupId> \
     -DartifactId=<your-DartifactId>
 ```
@@ -25,7 +22,7 @@ To generate a MVC application with **RESTEasy** as JAX-RS implementation (Wildfl
 mvn archetype:generate \
     -DarchetypeGroupId=de.erdlet \
     -DarchetypeArtifactId=jakartaee8-mvc-archetype \
-    -DarchetypeVersion=1.0-SNAPSHOT \
+    -DarchetypeVersion=1.0.0-Beta1 \
     -DgroupId=<your-groupId> \
     -DartifactId=<your-DartifactId> \
     -DkrazoImpl=resteasy
@@ -37,7 +34,7 @@ To generate a MVC application with **CXF** as JAX-RS implementation (TomEE):
 mvn archetype:generate \
     -DarchetypeGroupId=de.erdlet \
     -DarchetypeArtifactId=jakartaee8-mvc-archetype \
-    -DarchetypeVersion=1.0-SNAPSHOT \
+    -DarchetypeVersion=1.0.0-Beta1 \
     -DgroupId=<your-groupId> \
     -DartifactId=<your-DartifactId> \
     -DkrazoImpl=cxf
