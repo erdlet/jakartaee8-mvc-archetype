@@ -1,5 +1,5 @@
 # Jakarta EE 8 & MVC 1.0 archetype
-https://search.maven.org/search?q=g:%22de.erdlet.archetypes%22%20AND%20a:%22jakartaee8-mvc-archetype%22
+[![Maven Central](https://img.shields.io/maven-central/v/de.erdlet.archetypes/jakartaee8-mvc-archetype.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22de.erdlet.archetypes%22%20AND%20a:%22jakartaee8-mvc-archetype%22)
 
 ## About the archetype
 This archetype generates a basic MVC application based on Jakarta EE 8 and the current release version of
