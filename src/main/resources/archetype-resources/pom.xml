@@ -11,8 +11,8 @@
 
   <properties>
     <jakartaee-api.version>8.0.0</jakartaee-api.version>
-    <krazo.version>1.0.0-Beta1</krazo.version>
-    <javax.mvc-api.version>1.0-pfd</javax.mvc-api.version>
+    <krazo.version>1.0.0-RC1</krazo.version>
+    <javax.mvc-api.version>1.0.0-RC1</javax.mvc-api.version>
     <junit.version>4.12</junit.version>
   </properties>
 
