@@ -13,7 +13,7 @@ To generate a MVC application with **Jersey** as JAX-RS implementation (Glassfis
 mvn archetype:generate \
     -DarchetypeGroupId=de.erdlet.archetypes \
     -DarchetypeArtifactId=jakartaee8-mvc-archetype \
-    -DarchetypeVersion=1.0.1-Beta1  \
+    -DarchetypeVersion=1.0.0-RC1  \
     -DgroupId=<your-groupId> \
     -DartifactId=<your-DartifactId>
 ```
@@ -24,7 +24,7 @@ To generate a MVC application with **RESTEasy** as JAX-RS implementation (Wildfl
 mvn archetype:generate \
     -DarchetypeGroupId=de.erdlet.archetypes \
     -DarchetypeArtifactId=jakartaee8-mvc-archetype \
-    -DarchetypeVersion=1.0.1-Beta1 \
+    -DarchetypeVersion=1.0.0-RC1 \
     -DgroupId=<your-groupId> \
     -DartifactId=<your-DartifactId> \
     -DkrazoImpl=resteasy
@@ -36,7 +36,7 @@ To generate a MVC application with **CXF** as JAX-RS implementation (TomEE):
 mvn archetype:generate \
     -DarchetypeGroupId=de.erdlet.archetypes \
     -DarchetypeArtifactId=jakartaee8-mvc-archetype \
-    -DarchetypeVersion=1.0.1-Beta1 \
+    -DarchetypeVersion=1.0.0-RC1 \
     -DgroupId=<your-groupId> \
     -DartifactId=<your-DartifactId> \
     -DkrazoImpl=cxf
