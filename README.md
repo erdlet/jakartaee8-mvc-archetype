@@ -1,6 +1,10 @@
 # Jakarta EE 8 & MVC 1.0 archetype
 [![Maven Central](https://img.shields.io/maven-central/v/de.erdlet.archetypes/jakartaee8-mvc-archetype.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22de.erdlet.archetypes%22%20AND%20a:%22jakartaee8-mvc-archetype%22)
 
+## Attention!
+This archetype was migrated into [Eclipse Krazo](https://github.com/eclipse-ee4j/krazo) and can be used to generate projects
+starting with Krazo version **1.1.0-SNAPSHOT**. For versions until Krazo **1.0.0** you can still use this archetype.
+
 ## About the archetype
 This archetype generates a basic MVC application based on Jakarta EE 8 and the current release version of
 the MVC API and Eclise Krazo.
