@@ -3,7 +3,7 @@
 
 ## Attention!
 This archetype was migrated into [Eclipse Krazo](https://github.com/eclipse-ee4j/krazo) and can be used to generate projects
-starting with Krazo version **1.1.0-SNAPSHOT**. For versions until Krazo **1.0.0** you can still use this archetype.
+starting with Krazo version **1.1.0-SNAPSHOT**. For versions until Krazo **1.0.0** you can still use this archetype. Please check the [Krazo Documentation](https://github.com/eclipse-ee4j/krazo/blob/master/documentation/src/main/asciidoc/_quickstart.adoc) for further information.
 
 ## About the archetype
 This archetype generates a basic MVC application based on Jakarta EE 8 and the current release version of
